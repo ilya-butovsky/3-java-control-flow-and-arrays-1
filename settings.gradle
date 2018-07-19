@@ -1,2 +1,3 @@
 rootProject.name = 'java-control-flow-and-arrays'
 include 'task01'
+include 'task02'
