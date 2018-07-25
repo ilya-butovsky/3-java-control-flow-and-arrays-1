@@ -10,6 +10,6 @@ public class Task02Main {
     }
 
     static String getSeason(int mothNumber) {
-        return "";//todo напишите здесь свою корректную реализацию этого метода, вместо сеществующей
+        return "";//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
     }
 }
