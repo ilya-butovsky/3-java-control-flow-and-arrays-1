@@ -6,7 +6,7 @@ import org.junit.Test;
 public class Tests {
 
     @Test
-    public void testGetMin() {
+    public void testSum() {
         Assert.assertEquals("сумма массива из 4 нулей = 0", 0, Task07Main.sum(new int[]{0, 0, 0, 0}));
         Assert.assertEquals("сумма массива [1,2,3,4] = 10", 10, Task07Main.sum(new int[]{1, 2, 3, 4}));
         Assert.assertEquals("сумма массива [1,2,3,-7] = -1", -1, Task07Main.sum(new int[]{1, 2, 3, -7}));
