@@ -7,6 +7,15 @@ subprojects {
                 srcDirs = ['src']
             }
         }
+        test {
+            java {
+                srcDirs = ['src']
+            }
+        }
+    }
+
+    tasks.withType(JavaCompile).forEach{
+        it.options.encoding = "UTF-8"
     }
 
     group 'java-contol-flow-and-arrays'
