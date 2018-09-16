@@ -5,7 +5,12 @@ public class Task07Main {
         //здесь вы можете вручную протестировать ваше решение, вызывая реализуемый метод и смотря результат
         // например вот так:
         /*
-        
+        int[] myArray = new int[4];
+        myArray[0] = 2;
+        myArray[1] = 10;
+        myArray[2] = 10;
+        myArray[3] = 0;
+        System.out.println(sum(myArray));
          */
     }
 
