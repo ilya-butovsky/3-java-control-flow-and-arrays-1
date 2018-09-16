@@ -3,5 +3,5 @@
 Реализовать метод возвращающий время года (зима|весна|лето|осень) по номеру месяца. 
 Месяца номеруются с 1. Январь - 1, Декабрь - 12.
 ```java
-static String getSeason(int mothNumber)
+static String getSeason(int monthNumber)
 ```
