@@ -6,7 +6,7 @@ import org.junit.Test;
 public class Tests {
 
     @Test
-    public void testСanGetDriverLicense() {
+    public void testGetSeason() {
         Assert.assertEquals("1 - январь -> зима", "зима", Task02Main.getSeason(1));
         Assert.assertEquals("2 - февраль -> зима", "зима", Task02Main.getSeason(2));
         Assert.assertEquals("3 - март -> весна", "весна", Task02Main.getSeason(3));
