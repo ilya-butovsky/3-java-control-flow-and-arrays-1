@@ -1,7 +1,7 @@
 language: java
 script:
   - |
-    task=$(git diff --name-only $TRAVIS_BRANCH...HEAD | awk -F/ '{print $(NF-1)}' | sort -u | grep task)
+    task=$(git diff --name-only $TRAVIS_BRANCH...HEAD | awk -F/ '{print $1}' | sort -u | grep task)
     count=`echo $task | wc -w`
     if [ "$count" == "0" ];
     then
